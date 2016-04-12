@@ -176,7 +176,7 @@ def do_multiply(expr1, expr2):
     """
     ans = []
 
-    pdb.set_trace()
+    # pdb.set_trace()
     
     if(isinstance(expr1, Sum) and isinstance(expr2, Sum)):
         for term1 in expr1:
